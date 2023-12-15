@@ -1,0 +1,81 @@
+/* 
+Color Codes:
+#161A30
+#31304D
+#B6BBC4
+#F0ECE5 
+*/
+
+body{
+    background-color: #161A30;
+    color: #F0ECE5;
+}
+
+hr {
+    background-color: #31304D;
+    margin: 0;
+}
+
+a{
+    color: #F0ECE5;
+}
+
+.intro{
+    padding-top: 2rem;
+}
+
+.blog-previews{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+ /* Custom Styles */
+ .navbar-custom {
+    background-color: #161A30; /* Dark Blue Background */
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #B6BBC4; /* Light Gray Text */
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #F0ECE5; /* Off-White Text on Hover */
+}
+
+.navbar-custom {
+    /* Adjust the height of the navbar */
+    padding: 0.4rem 0; /* Increase the value for more height */
+}
+.navbar-custom .navbar-nav .nav-link {
+    /* Increase font size for nav items */
+    font-size: 1.2em; /* Adjust as needed */
+    padding: 10px 2rem; /* Increase padding for larger nav items */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 1.4rem;
+}
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+.about-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+    padding-bottom: 2rem;
+}
+
+.blog-post{
+    background-color: #31304D;
+}
