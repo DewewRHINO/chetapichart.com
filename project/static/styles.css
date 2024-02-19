@@ -243,11 +243,6 @@ h3{
     color: #B6BBC4; /* Adjust text color as needed */
 }
 
-.blog-post .btn {
-    background-color: #161A30; /* Button background */
-    color: #F0ECE5; /* Button text color */
-    border: none;
-}
 
 .blog-post .btn:hover {
     background-color: darken(#161A30, 10%); /* Darker on hover */
@@ -260,3 +255,11 @@ h3{
     }
 }
 
+.blog-row {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
